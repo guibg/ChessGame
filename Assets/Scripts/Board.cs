@@ -15,6 +15,7 @@ public class Board : Singleton<Board>
 
     private void InstantiateBoard()
     {
+        Debug.Log("Instantiating board...");
         float scaleX = _tilePrefab.transform.localScale.x / 2;
         float scaleY = _tilePrefab.transform.localScale.y / 2;
         for (int x = 0; x < 8; x++)
