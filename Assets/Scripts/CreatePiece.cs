@@ -29,6 +29,7 @@ public class CreatePiece : Singleton<CreatePiece>
 
     public Sprite GetSprite(PieceType type, bool isWhite)
     {
+        Debug.Log("GetSprite");
         switch (type)
         {
             case PieceType.Pawn:
